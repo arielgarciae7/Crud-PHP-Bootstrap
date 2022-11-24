@@ -1,11 +1,11 @@
 <?php 
-$contrasena = "";
-$usuario = "root";
+$contrasena = "Alkik2709@";
+$usuario = "dbadmin";
 $nombre_bd = "crud";
 
 try {
 	$bd = new PDO (
-		'mysql:host=localhost;
+		'mysql:host=dbphpyangular.mysql.database.azure.com;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,
